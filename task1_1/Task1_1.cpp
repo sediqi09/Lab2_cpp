@@ -4,9 +4,9 @@
 #include <iterator>
 
 int main() {
-    std::ifstream inputFile("numbers.txt");
+    std::ifstream inputFile("name.txt");
     if (!inputFile) {
-        std::cerr << "Unable to open file numbers.txt";
+        std::cerr << "Unable to open file name.txt";
         return 1;
     }
 
